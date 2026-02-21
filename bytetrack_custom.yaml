@@ -1,0 +1,7 @@
+tracker_type: bytetrack
+track_high_thresh: 0.35     # нижній поріг = менше втрат
+track_low_thresh: 0.05
+new_track_thresh: 0.35
+track_buffer: 60            # тримати ID 60 кадрів після зникнення (=2 сек при 30fps)
+match_thresh: 0.85          # вищий поріг = консервативніший реметч
+fuse_score: true
